@@ -1,52 +1,21 @@
 @charset 'UTF-8';
 
-* {
-    padding: 0;
-    margin: 0;
+/*
+Tipos de format()
+
+opentype (otf)
+truetype (ttf)
+embedded-opentype ()
+truetype-aat (Apple Advanced Typography)
+svg
+*/
+
+
+footer a {
+    text-decoration: none;
 }
 
-
-@font-face {
-    font-family: 'floral';
-    src: url(fonts/floral_dawn.tff) format(truetype);
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'vanessa';
-    src: url('./fonts/vanessa/vanessa.tff') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-body {
-    background-color: aqua;
-}
-
-article {
-    background-color: rgba(128, 0, 128, 0.395);
-    border-radius: 10px;
-    padding: 20px;
-    width: 800px;
-    margin: auto;
-    margin-top: 20px;
-}
-
-h1 {
-    font-family: 'floral';
-    padding-bottom: 20px;
-}
-
-main article h2 {
-    padding: 20px 0px 20px 0px;
-    font-family: 'vanessa', 'Times New Roman', Times, serif;
-}
-
-main article h3 {
-    padding: 20px 0px 20px 0px;
-}
-
-p {
-    font-family: 'vanessa', 'Times New Roman', Times, serif;
+footer a:hover {
+    color: red;
+    text-decoration: underline;
 }
