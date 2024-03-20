@@ -32,10 +32,15 @@ svg
 }
 
 @font-face {
-    font-family: 'beck';
+    font-family: 'mig';
     src: url('../fonts/Miganty\ Script.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+}
+
+@font-face {
+    font-family: 'louisa';
+    src: url('../fonts/LouisaCP.otf') format('opentype');
 }
 
 :root {
@@ -43,7 +48,8 @@ svg
     --font01: 'sri', sans-serif;
     --font02: 'vanessa', sans-serif;
     --font03: 'passion', sans-serif;
-    --font04: 'beck', sans-serif;
+    --font04: 'mig', sans-serif;
+    --font05: 'louisa';
 }
 
 * {
@@ -62,6 +68,11 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+}
+
+header span {
+    font-family: var(--font05);
+    font-size: 2em;
 }
 
 header > h1 {
