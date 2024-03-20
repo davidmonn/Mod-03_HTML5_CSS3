@@ -10,6 +10,42 @@ truetype-aat (Apple Advanced Typography)
 svg
 */
 
+@font-face {
+    font-family: 'sri';
+    src: url(../fonts/Sriracha-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vanessa';
+    src: url(../fonts/vanessa.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'passion';
+    src: url(../fonts/PassionOne-Regular.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'beck';
+    src: url('../fonts/Miganty\ Script.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --fontp: Verdana, Geneva, Tahoma, sans-serif;
+    --font01: 'sri', sans-serif;
+    --font02: 'vanessa', sans-serif;
+    --font03: 'passion', sans-serif;
+    --font04: 'beck', sans-serif;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -19,6 +55,7 @@ svg
 html, body {
     min-height: 100vh;
     background-color: aqua;
+    font-family: var(--fontp);
 }
 
 header {
@@ -30,6 +67,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font02);
+    font-size: 5vw;
 }
 
 header > p {
@@ -53,6 +92,9 @@ section {
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--font04);
+    font-weight: normal;
+    font-size: 3.5vw;
 }
 
 section.normal {
@@ -66,7 +108,8 @@ section.imagem {
 }
 
 section.imagem p {
-    width: 400px;
+    display: inline-block;
+    padding: 15px;
     background-color: rgba(0, 0, 0, 0.482);
 }
 
