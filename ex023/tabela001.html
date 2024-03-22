@@ -17,21 +17,19 @@
         table {
             width: 400px;
             border-collapse: collapse;
-            border: 3px solid red;
             margin: auto;
-        }
-
-        tr.linha {
-            background-color: gray;
+            height: 400px;
         }
 
         td {
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /*Alinhamento Horizontal*/
+            vertical-align: top; /*Alinhamento Vertical*/
         }
 
-        td.dado {
-            background-color: lime;
+        .numero {
+            text-align: right;
         }
 
     </style>
@@ -55,19 +53,19 @@
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr class="linha"> <!--Segunda Linha-->
+        <tr> <!--Segunda Linha-->
             <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr>
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr>
             <td>A4</td>
-            <td class="dado">B4</td> <!--Terceira Linha-->
+            <td>B4</td> <!--Terceira Linha-->
             <td>C4</td>
         </tr>
     </table>
