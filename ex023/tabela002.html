@@ -14,6 +14,14 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: lightblue;
+            border: 1px solid black;
         }
 
         tbody > tr:nth-child(even) { /*2n*/
@@ -45,6 +53,28 @@
         .num {
             text-align: right;
         }
+
+        .container {
+            /*background-color: rgba(255, 0, 0, 0.221);*/
+            width: 100%;
+            margin-top: 10px;
+            height: 100vh;
+
+        }
+
+        .box {
+           /* background-color: rgba(0, 255, 255, 0.242); */
+            padding: 20px;
+            position: absolute;
+            left: -10px;
+        }
+
+        .box p {
+            text-indent: 50px;
+            text-align: justify;
+            width: 500px;
+        }
+
 
     </style>
 </head>
@@ -187,6 +217,16 @@
             </tr>
         </tfoot>
     </table>
+
+        <div class="container">
+            <div class="box">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam assumenda natus vero excepturi omnis quos error asperiores accusamus? Impedit reprehenderit asperiores corrupti, hic error officiis alias tempora repellendus laudantium excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quaerat reiciendis facere asperiores tempore tempora error aliquid at? Exercitationem laboriosam doloremque eveniet reiciendis perspiciatis, assumenda non sunt quisquam quasi enim? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem beatae, aliquam neque distinctio expedita, alias incidunt doloribus quam accusamus dignissimos quia odio cupiditate! Accusamus, fugiat praesentium quos possimus sed est. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ut sed quidem fugit id ratione repudiandae tenetur commodi aut rem. Debitis voluptatum ducimus nam nostrum, magnam veritatis cum nesciunt aliquid.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam assumenda natus vero excepturi omnis quos error asperiores accusamus? Impedit reprehenderit asperiores corrupti, hic error officiis alias tempora repellendus laudantium excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quaerat reiciendis facere asperiores tempore tempora error aliquid at? Exercitationem laboriosam doloremque eveniet reiciendis perspiciatis, assumenda non sunt quisquam quasi enim? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem beatae, aliquam neque distinctio expedita, alias incidunt doloribus quam accusamus dignissimos quia odio cupiditate! Accusamus, fugiat praesentium quos possimus sed est. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ut sed quidem fugit id ratione repudiandae tenetur commodi aut rem. Debitis voluptatum ducimus nam nostrum, magnam veritatis cum nesciunt aliquid.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam assumenda natus vero excepturi omnis quos error asperiores accusamus? Impedit reprehenderit asperiores corrupti, hic error officiis alias tempora repellendus laudantium excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quaerat reiciendis facere asperiores tempore tempora error aliquid at? Exercitationem laboriosam doloremque eveniet reiciendis perspiciatis, assumenda non sunt quisquam quasi enim? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem beatae, aliquam neque distinctio expedita, alias incidunt doloribus quam accusamus dignissimos quia odio cupiditate! Accusamus, fugiat praesentium quos possimus sed est. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ut sed quidem fugit id ratione repudiandae tenetur commodi aut rem. Debitis voluptatum ducimus nam nostrum, magnam veritatis cum nesciunt aliquid.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam assumenda natus vero excepturi omnis quos error asperiores accusamus? Impedit reprehenderit asperiores corrupti, hic error officiis alias tempora repellendus laudantium excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quaerat reiciendis facere asperiores tempore tempora error aliquid at? Exercitationem laboriosam doloremque eveniet reiciendis perspiciatis, assumenda non sunt quisquam quasi enim? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem beatae, aliquam neque distinctio expedita, alias incidunt doloribus quam accusamus dignissimos quia odio cupiditate! Accusamus, fugiat praesentium quos possimus sed est. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ut sed quidem fugit id ratione repudiandae tenetur commodi aut rem. Debitis voluptatum ducimus nam nostrum, magnam veritatis cum nesciunt aliquid.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam assumenda natus vero excepturi omnis quos error asperiores accusamus? Impedit reprehenderit asperiores corrupti, hic error officiis alias tempora repellendus laudantium excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quaerat reiciendis facere asperiores tempore tempora error aliquid at? Exercitationem laboriosam doloremque eveniet reiciendis perspiciatis, assumenda non sunt quisquam quasi enim? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem beatae, aliquam neque distinctio expedita, alias incidunt doloribus quam accusamus dignissimos quia odio cupiditate! Accusamus, fugiat praesentium quos possimus sed est. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore ut sed quidem fugit id ratione repudiandae tenetur commodi aut rem. Debitis voluptatum ducimus nam nostrum, magnam veritatis cum nesciunt aliquid.</p>
+            </div>
+        </div>
 
 </body>
 </html>
