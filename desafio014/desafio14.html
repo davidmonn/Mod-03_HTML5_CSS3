@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 14</title>
+    <link rel="shortcut icon" href="../icoD.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        article {
+            position: relative;
+            top: 50%;
+            display: inline;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            height: 400px;
+            width: 700px;
+        }
+
+        caption {
+            background-color: aqua;
+            padding: 10px;
+            text-shadow: 2px 2px 5px black;
+            font-size: 2em;
+        }
+
+        thead th {
+            padding: 10px;
+            height: 40px;
+            font-size: 1.5em;
+        }
+        
+
+        caption, th, td {
+            border: 1px solid black;
+        }
+
+        .cinza {
+            background-color: gray;
+        }
+
+        section.container {
+            /* background-color: blue; */
+           /* border: 1px solid black; */
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            padding: 50px;
+            left: 50%;
+            top: 10px;
+        }
+        
+        div.imagem {
+          background-image: url(Desafiio14.png);
+          background-repeat: no-repeat;
+          position: relative;
+          display: inline;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <article class="desafio">
+
+        <table>
+
+            <caption>Desafio 14</caption>
+
+            <thead>
+                <th colspan="5">Desafio</th>
+            </thead>
+    
+            <tbody>
+                <tr>
+                    <th scope="col" rowspan="2" class="cinza">Area</th>
+                    <th scope="col" rowspan="2" class="cinza">Disciplinas</th>
+                    <th scope="colgroup" colspan="2" class="cinza">Notas</th>
+                    <th scope="col" rowspan="2" class="cinza">Media</th>
+                </tr>
+    
+                <tr>
+                    <th scope="col" class="cinza">Nota 1</th>
+                    <th scope="col" class="cinza">Nota 2</th>
+                </tr>
+    
+                <tr>
+                    <th rowspan="4">Exatas</th>
+                    <td>Matematica</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+    
+                <tr>
+                    <td>Fisica</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+    
+                <tr>
+                    <td>Quimica</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+    
+                <tr>
+                    <td>Biologia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+    
+                <tr>
+                    <th scope="row" colspan="4"  class="cinza">Media Exatas</th>
+                    <td class="cinza">0.0</td>
+                </tr>
+    
+                <tr>
+                    <th scope="rowgroup" rowspan="2">Humanas</th>
+                    <td>Hisotoria</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+    
+                <tr>
+                    <td>Geografia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+    
+                <tr>
+                    <th scope="row" colspan="4" class="cinza">Media de Humanas</th>
+                    <td class="cinza">0.0</td>
+                </tr>
+    
+            </tbody>
+        </table>
+    </article>
+
+    <section class="container">
+        <div class="imagem">
+         <img src="Desafiio14.png" alt="Desafio14">
+        </div>
+    </section>
+
+
+
+</body>
+</html>
